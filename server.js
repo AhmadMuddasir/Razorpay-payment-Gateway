@@ -16,7 +16,7 @@ app.get('/',(req,res)=>{
 })
 
 
-
+//orders for payment
 app.post('/orders',async(req,res)=>{
 
      const {amount,currency} = req.body
