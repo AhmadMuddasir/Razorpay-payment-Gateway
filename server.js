@@ -44,7 +44,7 @@ app.post('/orders',async(req,res)=>{
            res.status(400).send('Not able to create order. Please try again!');
     }
 });
-
+//payment
 app.get("/payment/:paymentId",async(req,res)=>{
      const {paymentId} = req.params;
      
